@@ -1,3 +1,42 @@
+### Generality of the weekend project.
+
+
+## 1. In a few sentences,  explain the structure of your project.
+
+   - First I grab the the url which contain the film byt set in it as a variable
+   - Grabing some element which I might I need
+   - Creating function to fecth the object from the link and change it into string by using json
+   - Next fuction is the function which generate the html and relate it into the object in the link
+   - The third function, I created to rank the film according the score which they've got.(best one to the worst) 
+
+## 2. If you had more time, what area of your project would you improve?
+
+   - If I had more time, I would probably style my project
+
+## 3. Did you learn anything new while working on this project?
+
+
+## 4. What was the most challenging part for you?
+
+
+
+## 5. Would you like a new explanation about a specific topic?
+
+
+## 6. Any other comments?
+
+   
+
+
+
+
+
+
+
+
+
+
+
 # WKP9
 
 Hey team!
