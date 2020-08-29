@@ -22,9 +22,11 @@ async function displayMovies(movies) {
         return `
             <div class="movie-detail">
               <div class="information">
-                <h2>${movie.title}</h2>
-                <div class="movie_data_release">${movie.release_date}</div>
-                <div class="movie_tr_score">${movie.rt_score}</div>
+                <div class = "release_score">
+                  <h2>${movie.title}</h2>
+                  <div class="movie_data_release">${movie.release_date}</div>
+                  <div class="movie_tr_score">${movie.rt_score}</div>
+                </div>
                 <p>${movie.description}</p>
                 <ul class= "list_of_responsible">
                     <li>
