@@ -37,11 +37,16 @@ li {
 }
 
 .movie_data_release, .movie_tr_score {
-    padding-block-start: 1.5rem;
+    padding-block-start: 2rem;
 }
 
 .movie_data_release {
-  
+  margin-right: auto;
+  margin-inline-start: 2rem;
+}
+
+h1, p {
+    margin-inline-start: 2rem;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
