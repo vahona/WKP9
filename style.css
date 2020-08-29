@@ -1,0 +1,34 @@
+html {
+    background-color: aliceblue;
+}
+
+.more_info_movie {
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+    margin-block-end: 5rem;
+
+}
+
+.movie-detail {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.information {
+    margin: 2rem;
+}
+
+h2 {
+    padding-block-start: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+    padding-block-end: 1rem;
+}
+
+li {
+    margin-right: 3rem;
+}
