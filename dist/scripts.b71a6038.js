@@ -134,7 +134,10 @@ async function fetchMovies() {
 ; // Fuction display movie
 
 async function displayMovies(movies) {
-  const html = movies.map(movie => {
+  const rank = movies.sort(function rank(x, y) {
+    return y.rt_score - x.rt_score;
+  });
+  const html = rank.map(movie => {
     return `
             <div class="movie-detail">
               <div class="information">
