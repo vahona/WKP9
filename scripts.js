@@ -4,7 +4,7 @@ const baseInfoUrl = "https://ghibliapi.herokuapp.com/films";
 const content = document.querySelector('.movies');
 const movieInfo = document.querySelector('.more_info_movie');
 
-// Feach function for feaching the info
+// Fetch function for fetching the info
 
 async function fetchMovies() {
   const response = await fetch(baseInfoUrl);
@@ -17,7 +17,7 @@ async function fetchMovies() {
 
 // Fuction display movie
 
-async function displayMovies(movies) {
+function displayMovies(movies) {
   const rank = movies.sort(function rank(x, y) {
      return y.rt_score - x.rt_score
     });

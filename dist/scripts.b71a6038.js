@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 // The link for the movie
 const baseInfoUrl = "https://ghibliapi.herokuapp.com/films";
 const content = document.querySelector('.movies');
-const movieInfo = document.querySelector('.more_info_movie'); // Feach function for feaching the info
+const movieInfo = document.querySelector('.more_info_movie'); // Fetch function for fetching the info
 
 async function fetchMovies() {
   const response = await fetch(baseInfoUrl);
@@ -133,7 +133,7 @@ async function fetchMovies() {
 
 ; // Fuction display movie
 
-async function displayMovies(movies) {
+function displayMovies(movies) {
   const rank = movies.sort(function rank(x, y) {
     return y.rt_score - x.rt_score;
   });
@@ -190,7 +190,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52714" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64291" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
