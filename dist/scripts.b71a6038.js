@@ -146,7 +146,7 @@ async function displayMovies(movies) {
                   <div class="movie_data_release">${movie.release_date}</div>
                   <div class="movie_tr_score">${movie.rt_score}</div>
                 </div>
-                <p>${movie.description}</p>
+                <p class="description">${movie.description}</p>
                 <ul class= "list_of_responsible">
                     <li>
                     ${movie.director}

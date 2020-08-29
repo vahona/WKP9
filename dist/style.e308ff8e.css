@@ -1,5 +1,6 @@
 html {
-    background-color: aliceblue;
+    background-color: rgba(212, 198, 214, 0.4);
+    color: rgba(19, 1, 11, 0.753);
 }
 
 .more_info_movie {
@@ -10,8 +11,14 @@ html {
 }
 
 .movie-detail {
-  background-color: white;
+  color: white;
   border-radius: 5px;
+  background-color: rgb(7, 114, 114);
+  font-size: 20px;
+}
+
+p {
+    font-size: 20px; 
 }
 
 .information {
@@ -25,6 +32,7 @@ ul {
     display: flex;
     padding-inline-start: 0;
     padding-block-end: 1rem;
+    color: yellow
 }
 
 li {
@@ -47,6 +55,10 @@ li {
 
 h1, p {
     margin-inline-start: 2rem;
+}
+
+.description {
+      margin-inline-start: 0;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
